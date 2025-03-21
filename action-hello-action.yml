@@ -1,0 +1,12 @@
+name: 안녕 깃허브 액션
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Hello-Action:
+    name: 처음 실행 시키는 액션
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "안녕 액션"
